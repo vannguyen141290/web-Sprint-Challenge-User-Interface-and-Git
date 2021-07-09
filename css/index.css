@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -27,6 +27,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+
 }
 body {
 	line-height: 1;
@@ -144,3 +145,109 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Sprint -home page part*/
+
+.middle-content .boxes div:first-child {
+    background-color: teal;
+}
+
+.middle-content .boxes div:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes div:nth-child(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes div:nth-child(4) {
+    background-color: coral;
+}
+.middle-content .boxes div:nth-child(5) {
+    background-color: crimson;
+}
+.middle-content .boxes div:nth-child(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes div:nth-child(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes div:nth-child(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes div:nth-child(9) {
+    background-color: indigo;
+}
+.middle-content .boxes div:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+
+.navigation-container, .header-img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2% 0 0 0;
+}
+
+.navigation-container nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10% 0 10%;
+}
+
+.navigation-container nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-img {
+    padding: 3% 0;
+}
+
+/* Sprint - About page part*/
+
+.about-header {
+    border-bottom: 1px dashed black;
+    padding: 0 2% 2% 2%;
+}
+
+.about-top-content {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.about-top-content .blocks {
+    display: flex;
+    flex-flow: column wrap;
+    width: 49%;
+    border-bottom: 1px black dashed;
+}
+
+.about-top-content .blocks img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 30px;
+}
+
+.blocks h2 {
+    padding: 3% 0 0 0;
+}
+
+
+.blocks button {
+    margin: 4% 0 4% 0;
+    width: 25%;
+    padding: 1%;
+    border-radius: 5px;
+ }
+
+
+ .about-bottom-content {
+     padding: 2%;
+ }
